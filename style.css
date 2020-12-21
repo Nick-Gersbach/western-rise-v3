@@ -1,0 +1,485 @@
+/* 
+
+Global Styles
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-wide {
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+.container-narrow {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.features-container-narrow {
+   width: 100%;
+    margin: auto;
+    background: #f1f1f1;  
+    padding: 40px 50px; 
+}
+
+  .bottom-line {
+      border-bottom: 2px solid white;
+      margin: auto;
+      width: 100px;
+  }
+
+  .gray-text {
+      color: #A2A2A2;
+  }
+
+  .btn-container {
+    padding-top: 30px;
+    padding-left: 175px;
+  }
+
+
+/* 
+
+Top Hero
+
+
+*/
+
+#top-hero {
+    background: url(./img/top-hero-v3.png) no-repeat center center/cover;
+    height: 85vh;
+    width: 100%;
+}
+
+ h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.hero-text {
+    color: white;
+    padding-left: 175px;
+    padding-top: 100px;
+    display: inline-block;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+
+.hero-text p {
+  font-size: 11px;
+  padding-bottom: 8px;
+}
+
+
+
+#top-hero a {
+  padding: 15px 20px;
+  background: white;
+}
+
+/* 
+
+benefits
+
+
+*/
+
+#benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 45px;
+     align-items: center;
+  justify-content: center;
+  grid-gap: 94px;
+  padding-bottom: 45px;
+}
+
+#benefits div {
+text-align: center;
+}
+
+#benefits div i {
+padding-bottom: 10px;
+}
+
+#benefits div h3 {
+padding-bottom: 10px;
+}
+
+/* 
+
+Best Ever
+
+
+*/
+
+#best-ever {
+    background: #f1f1f1;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#best-ever img {
+ padding-top: 75px;
+ padding-bottom: 25px;
+}
+
+#best-ever h3 {
+ padding-bottom: 20px;
+}
+
+#best-ever p {
+ line-height: 1.7;
+ max-width: 500px;
+ margin: 0 auto;
+}
+
+/* Why We Made This */
+
+#why-we-made {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+       align-items: center;
+  justify-content: center;
+}
+
+#why-we-made .we-made-text {
+   text-align: center;
+}
+
+#why-we-made .we-made-text h3 {
+   padding-bottom: 50px;
+}
+
+#why-we-made .we-made-text p {
+ line-height: 1.7;
+}
+
+/* Gear Patrol */
+
+
+#gear-patrol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+       align-items: center;
+  justify-content: center;
+}
+
+#gear-patrol .we-made-text {
+   text-align: center;
+}
+
+#gear-patrol .we-made-text h3 {
+   padding-bottom: 50px;
+   font-size: 48px;
+}
+
+#gear-patrol .we-made-text p {
+ line-height: 1.3;
+}
+
+/* Athletic Performance */
+
+#athletic-performance {
+    background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(./img/athletic-performance.jpg) no-repeat center center/cover;
+    height: 75vh;
+    width: 100%;
+}
+
+#athletic-performance .athletic-text{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 200px;
+     display: inline-block;
+   
+}
+
+  #athletic-performance a {
+    padding: 10px  15px;
+  background: white;
+  }
+
+#athletic-performance h1 {
+  padding-bottom: 30px;
+  font-size: 42px;
+   
+}
+
+/* Tech Specs */
+
+#tech-specs {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#tech-specs h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+
+#tech-specs .list-wrapper {
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ line-height: 1.8;
+}
+
+/* Available Colors */
+
+#available-colors h3 {
+      text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 30px;
+
+}
+
+.colors-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.colors-wrapper img {
+padding: 0 30px;
+    
+}
+
+/* Features */
+
+#feature-styles {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+  justify-content: center;
+  background: #f1f1f1; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+#feature-styles img {
+  width: 100%;
+}
+
+
+#feature-styles .feature-text {
+  text-align: center;
+}
+
+#feature-styles .feature-text h3 {
+  padding: 10px 0;
+}
+
+
+/* Footer Hero */
+
+#footer-hero {
+ background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(./img/bottom-hero.jpg) no-repeat center center/cover;
+ height: 70vh;   
+
+}
+
+.footer-hero-text  {
+        color: white;
+    position: relative;
+    top: 250px;
+    left: 200px;
+     display: inline-block;
+}
+
+.footer-hero-text p {
+ padding-bottom: 50px;
+ font-size: 13px;
+ line-height: 1.6;
+}
+
+  #footer-hero a {
+    padding: 15px  20px;
+  background: white;
+  }
+
+/* 
+
+
+Media Queries
+
+
+*/
+
+@media only screen and (max-width: 768px) {
+
+    * {
+    width: 100%;
+    line-height: 1.7;
+         
+    }
+
+    #top-hero {
+      height: 100vh;
+    }
+
+    .hero-text {
+    color: white;
+    padding-left: 13px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.hero-text h2 {
+  font-size: 26px;
+  padding-bottom: 8px;
+}
+
+.hero-text p {
+  font-size: 11px;
+  padding-bottom: 8px;
+}
+
+#top-hero a {
+  padding: 10px 15px;
+  background: white;
+}
+
+.btn-container {
+    padding-top: 30px;
+    padding-left: 13px;
+}
+
+
+#top-hero a {
+  padding: 15px 20px;
+  background: white;
+}
+
+#benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#benefits div {
+  padding: 20px 0;
+}
+
+#benefits div p {
+  text-align: center;
+}
+
+#best-ever img {
+ padding-top: 75px;
+ padding-bottom: 25px;
+ width: 175px;
+}
+
+#best-ever p {
+ text-align: left;
+ margin: 0 auto;
+ padding: 25px;
+}
+
+#why-we-made {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#why-we-made .we-made-text h3  {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#why-we-made .we-made-text p {
+  padding-bottom: 20px;
+  margin: 0 auto;
+  padding-right: 28px;
+}
+
+#gear-patrol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#gear-patrol p {
+margin-bottom: 30px;
+}
+
+.colors-wrapper {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors-wrapper img {
+padding: 15px 0;
+width: 50%;
+}
+
+#feature-styles {
+display: block;
+margin: 0 auto;
+}
+
+#feature-styles p {
+margin-bottom: 30px;
+}
+
+#feature-styles img {
+  padding: 30px 0;
+  width: 50%;
+  display: none;
+}
+
+#tech-specs .list-wrapper {
+
+ flex-direction: column;
+
+}
+
+  #footer-hero a {
+    padding: 10px  15px;
+  background: white;
+  }
+
+}
